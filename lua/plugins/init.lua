@@ -5,6 +5,12 @@ return {
     opts = require "configs.conform",
   },
 
+  {
+    "mrcjkb/rustaceanvim",
+    version = "^9",
+    lazy = false, -- it implements its own lazy-loading
+  },
+
   -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
